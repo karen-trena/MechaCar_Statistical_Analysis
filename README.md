@@ -26,3 +26,20 @@ Here´s the summary of the t-test results across all manufacturing lots and for 
 ![Picture4](https://github.com/karen-trena/MechaCar_Statistical_Analysis/blob/main/Picture4.png)
 
 ## Study Design: MechaCar vs Competition
+### Deliverable 4:
+Now, I will proceed with the comparison of MechaCar with the competition. For this, I will proceed by suggesting a comparison among prices between them considering their cars with AWD and without AWD. The price is expected to be similar, but we would like to know if customers base part of their opinion on this variable, how much relationship does this have with the final price.
+
+I am going to test the mean of the price for cars with AWD from MechaCar and compare it with the same statistic from the competitiion.
+
+The hypothesis would be the following:
+H0= The mean price of MechaCar for their cars with AWD is similar to the price from the competition
+H1= The mean price of MechaCar for their cars with AWD is NOT similar to the price from the competition
+
+The statistical test I would use would be the t-test considering all the needed assumptions to be able to do it. It would be a 2 sample t-test. I would use this statiscal test because I want to test if there´s a significant difference among the mean from both groups. Before doing the test, I would have to check if we meet the following assumptions:
+1. Input data is numerical and continuous
+2. Data was selected randomly
+3. Input data is considered normally distributed
+4. The sample size is reasonably large
+5. The variance of both samples is similar
+
+To run this test I would need a reasonable large sample from MechaCar and the Competition with similar variance and normally distributed.
